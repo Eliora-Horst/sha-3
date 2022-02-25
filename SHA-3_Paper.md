@@ -29,6 +29,7 @@ This process may seem rather simplistic, but its elegant design represents years
 ## SPONGE CONSTRUCTION
 One of the key features of the Keccak algorithm was its introduction of the new method for chaining, called a “sponge construction,” which can be adjusted and manipulated to provide lower security in trade for faster processing rates, per the users specification.
 ![The Sponge Construction](https://github.com/Eliora-Horst/sha-3/blob/main/sponge-construction.png)<sup>13</sup>
+
 The Sponge Construction gets its name from the process by which it “absorbs” and “squeezes” data through its processes.  This construction takes a binary string of any variable length and returns a string with any specified length.  A sponge function is a combination of general hash functionality and stream ciphers.<sup>13</sup>
 The sponge construction itself is designed for building the function f with a variable input length, and specified output length, based on a fixed-length transformation of the function operating on a fixed number of bits (bits here being a product of the bitrate and the capacity.<sup>13</sup>
 The sponge construction works by first padding the input string, and then cutting that into blocks of size r bits.  Then b is initialized to 0, and the sponge construction goes into the first of two phases. 
