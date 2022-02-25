@@ -21,6 +21,7 @@ Preneel, Bart. “Hash Functions.” In Encyclopedia of Cryptography and Securit
 “Q150: What Is Capstone?” Accessed September 25, 2020. http://x5.net/faqs/crypto/q150.html.
 
 “SHA-3, Keccak and SHAKE.” Accessed September 25, 2020. https://asecuritysite.com/encryption/s3?m=The%20quick%20brown%20fox%20jumps%20over%20the%20lazy%20dog.
+
 Hashed Out by The SSL StoreTM. “What Is the Difference Between SHA-1, SHA-2 and SHA-256?,” November 9, 2018. https://www.thesslstore.com/blog/difference-sha-1-sha-2-sha-256-hash-algorithms/.
 
 Team Keccak “The Sponge and Duplex Constructions.” Accessed September 25, 2020. https://keccak.team/sponge_duplex.html.
